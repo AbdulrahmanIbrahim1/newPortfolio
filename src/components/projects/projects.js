@@ -12,7 +12,7 @@ import cart from './projectsImages/cart.png'
 export default function Projects() {
   return (
     <section>
-      <Container className='projects py-5' id="projects m-auto">
+      <Container className='projects py-5' id="projects">
         <h2 className='py-3'>Projects</h2>
         <Row className='gap-4 p-2'>
           <SingleCard image={dashboard} Title={"Dashboard"} description={"this is Full Dashboard"} link={"https://mydashboard-1.netlify.app/"} linkGitHub={"https://github.com/AbdulrahmanIbrahim1/Dashboard-1"} />

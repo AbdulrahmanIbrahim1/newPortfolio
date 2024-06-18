@@ -6,6 +6,20 @@
   /* animation: tst 100s infinite; */
   /* background-color: aqua; */
 }
+@media (max-width:	768px) {
+  .land{
+    flex-direction: column-reverse !important;
+    justify-content: space-around !important;
+    gap: 1px !important;
+  }
+  .left-land{
+    margin: 0;
+    top: 0;
+    display: flex;
+    justify-content:flex-start !important;
+    flex-direction: column;
+  }
+}
 .landing{
   background-image: url('./wallpaperflare.com_wallpaper\ \(47\).jpg');
   background-size: cover;
