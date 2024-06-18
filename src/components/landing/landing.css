@@ -1,0 +1,104 @@
+.land {
+  height: 96vh;
+  /* position:relative; */
+  /* background-attachment: fixed; 
+  background-color: black; */
+  /* animation: tst 100s infinite; */
+  /* background-color: aqua; */
+}
+.landing{
+  background-image: url('./wallpaperflare.com_wallpaper\ \(47\).jpg');
+  background-size: cover;
+  color: antiquewhite;
+  background-attachment: fixed;
+}
+
+.my-img {
+  max-width: 350px;
+  /* animation: myimge duration timing-function delay iteration-count direction fill-mode; */
+  animation: myimge 5s infinite;
+}
+
+@keyframes myimge {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-30px);
+    /* Adjust the distance as needed */
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #b2b2b2;
+  animation: typing 4s steps(16) infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+
+  50% {
+    width: 17ch;
+  }
+
+  100% {
+    width: 0ch;
+  }
+}
+
+
+
+@keyframes tst {
+  0% {
+    background-color: red;
+  }
+
+  10% {
+    background-color: green;
+  }
+
+  20% {
+    background-color: rgb(0, 23, 128);
+  }
+
+  30% {
+    background-color: rgb(119, 0, 128);
+  }
+
+  40% {
+    background-color: rgb(0, 128, 124);
+  }
+
+  50% {
+    background-color: rgb(0, 13, 128);
+  }
+
+  60% {
+    background-color: rgb(117, 128, 0);
+  }
+
+  70% {
+    background-color: rgb(0, 90, 128);
+  }
+
+  80% {
+    background-color: rgb(0, 70, 128);
+  }
+
+  90% {
+    background-color: rgb(0, 128, 26);
+  }
+
+  100% {
+    background-color: rgb(128, 0, 43);
+  }
+}

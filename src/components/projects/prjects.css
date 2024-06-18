@@ -1,0 +1,48 @@
+.projects {
+  background-color: bisque;
+}
+
+section {
+  background-color: rgba(255, 228, 196, 0.725);
+}
+
+
+
+/* card styles  */
+.text-ellipsis {
+  text-overflow: ellipsis;
+  word-break: break-all;
+}
+
+.proj-img {
+  transition: 2s;
+}
+.image-container{
+  position: relative;
+  padding: 0;
+}
+
+.image-container:hover .proj-img {
+  transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+  transform: scale(1, 1);
+}
+
+.overlay {
+  position: absolute;
+  width: 110%;
+  height: 110%;
+  top: -10px;
+  left: -13px;
+  background-color: rgba(0, 0, 0, 0.314);
+  color: white;
+  transform: scale(1, 0);
+  transform-origin: top;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}

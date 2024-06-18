@@ -1,0 +1,12 @@
+footer{
+  /* margin: 10px 0; */
+  background-color: black;
+  color: white;
+}
+.color-social{
+    color: rgb(230 70 181) !important; 
+  /* color: rgb(102, 255, 0); */
+}
+.color-social:hover{
+  color: aliceblue !important;
+}
