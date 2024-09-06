@@ -28,7 +28,7 @@
 }
 
 .my-img {
-  max-width: 350px;
+  max-width: 290px;
   /* animation: myimge duration timing-function delay iteration-count direction fill-mode; */
   animation: myimge 5s infinite;
 }
