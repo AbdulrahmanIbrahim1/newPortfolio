@@ -32,6 +32,10 @@
   /* animation: myimge duration timing-function delay iteration-count direction fill-mode; */
   animation: myimge 5s infinite;
 }
+.my-img img {
+  border-radius: 10% !important;
+  box-shadow: 0px 0 9px 4px #87126e;
+}
 
 @keyframes myimge {
   0% {

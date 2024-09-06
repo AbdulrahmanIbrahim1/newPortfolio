@@ -13,8 +13,8 @@ export default function Header() {
               <Nav.Link className=' link' href="#home">Home</Nav.Link>
               <Nav.Link className='  link' href="#projects">Projects</Nav.Link>
               <Nav.Link className=' link ' href="#about">About</Nav.Link>
-              <Nav.Link className='  link' href="#link">Link</Nav.Link>
-              <Nav.Link className='  link' href="#link">Link</Nav.Link>
+              {/* <Nav.Link className='  link' href="#link">Link</Nav.Link>
+              <Nav.Link className='  link' href="#link">Link</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

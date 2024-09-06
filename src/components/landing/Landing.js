@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './landing.css'
+import myImage from './myImage.jpg'
 
 export default function Landing() {
   return (
@@ -19,7 +20,8 @@ export default function Landing() {
 
           <div className='right-land col-sm-'>
             <div className='my-img'>
-              <img className='img-fluid rounded-circle border   border-primary-subtle' src="https://scontent-hbe1-1.xx.fbcdn.net/v/t1.6435-9/193954787_792114128106857_3103819073891465285_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEwfbohvVKfuDJd_C0tF9f4cfeYcu7k5H5x95hy7uTkfrMnfRbRceBKyXpGOxFDpsaHHiG2MZJpqW1YK2yRN-LB&_nc_ohc=Wf_ibvQrJmYQ7kNvgGf-_6u&_nc_ht=scontent-hbe1-1.xx&oh=00_AYDD4uaYF6b41SuBsirBc5pKXp0mguHFDb31jHy0NxT_UQ&oe=66981F15" alt="" />
+              {/* <img className='img-fluid rounded-circle border   border-primary-subtle' src="https://scontent-hbe1-1.xx.fbcdn.net/v/t1.6435-9/193954787_792114128106857_3103819073891465285_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEwfbohvVKfuDJd_C0tF9f4cfeYcu7k5H5x95hy7uTkfrMnfRbRceBKyXpGOxFDpsaHHiG2MZJpqW1YK2yRN-LB&_nc_ohc=Wf_ibvQrJmYQ7kNvgGf-_6u&_nc_ht=scontent-hbe1-1.xx&oh=00_AYDD4uaYF6b41SuBsirBc5pKXp0mguHFDb31jHy0NxT_UQ&oe=66981F15" alt="" /> */}
+              <img className='img-fluid  border  border-primary-subtle' src={myImage} alt="Abdelrahman ibrahim" />
             </div>
           </div>
         </Container>
